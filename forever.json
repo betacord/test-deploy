@@ -1,0 +1,7 @@
+{
+	"uid": "test-deploy", //nazwa procesu
+	"append": true, //doklejanie nowych logow na koncu pliku
+	"watch": false, //sledzenie zmian
+	"script": "app.js", //glowny plik appki
+	"sourceDir": "/var/www/app/dist" //katalog pliku
+}
